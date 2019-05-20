@@ -3,6 +3,7 @@
         <v-layout class="header-wrapper" row justify-center>
             <v-flex class="header" xs7>
                 <Header></Header>
+                <v-btn>Normal</v-btn>
             </v-flex>
             <!-- /.header -->
         </v-layout>
@@ -12,7 +13,7 @@
             <v-flex class="gray" xs7>
                 <!--TODO: all gray here (search, date and customer picker)-->
                 <!--use:-->
-                <HousingPicker></HousingPicker>
+                <CustomerPicker></CustomerPicker>
                 <DatePicker></DatePicker>
                 <Search></Search>
             </v-flex>
@@ -48,7 +49,7 @@
                 </h2>
                 <HotelsSlider></HotelsSlider>
 
-                <h3 class="hotels-slider__title">
+                <h3 class="loved-destinations__title">
                     Destinations we love
                 </h3>
                 <DestinationsSlider></DestinationsSlider>
@@ -119,10 +120,13 @@
     import DiscoverCountries from "./components/body/DiscoverCountries";
     import Partners from "./components/footer/Partners";
     import TopFooter from "./components/footer/TopFooter";
+    import CustomerPicker from "./components/gray/CustomerPicker";
+    import PopUpWindow from "./components/PopUpWindow";
 
     export default {
         name: 'app',
         components: {
+            CustomerPicker,
             TopFooter,
             BottomFooter,
             Partners,
@@ -139,6 +143,7 @@
             SubscribeForm,
             DestinationsSlider,
             TravellersSlider,
+            PopUpWindow,
         }
     }
 </script>
@@ -218,7 +223,10 @@
         padding: 16px 0;
     }
 
-    .destinations-slider__title {
-
+    .loved-destinations-slider__title {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        padding: 12px 0;
     }
 </style>
