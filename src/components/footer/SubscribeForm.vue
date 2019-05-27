@@ -14,54 +14,91 @@
 
 <style scoped lang="scss">
     @import "../../styles/colors";
-    .fix{
-  position: fixed;
-  top: calc(100% - 110px);
-  opacity: .75;
-  width: 100.89%;
-  height: calc(100%);
-  background-color: #003580;
+.container1111{
+  font-family: Segoe UI;
+  width: 100.4%;
+  height: 300px;
+  background-color: #001b42;
   margin: -8px;
-  min-width: 700px;
-}
-.container-cookie{
-  position: relative;
-  width: 100.89%;
-  height: calc(30% + cookie-text.height);
-  background-color: #003580;
   text-align: center;
-  min-width: 700px;
+  min-width: 600px;
 }
-.cookie-text{
-  position: relative;
-  width: 90%;
-  color: white;
-  font-weigth: bold;
-  font-size: 13px;
-  padding: 10px 0;
+.container111{
+  width: 100.4%;
+  height: 160px;
+  margin: -8px;
+  background-color: #001b42;
   text-align: center;
-  left: 5%;
 }
-.ck{
+.sbscr{
+  cursor: pointer;
   color: white;
   background-color: #07c;
-  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  width: 100px;
-  height: 30px;
-  top: 5%;
-  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+  padding: 0 15px;
+  font-size: 20px;
+  height: 48px;
+  width: 200px;
+}
+.sbscr:hover{
+  background-color: #05c;
+}
+.inpt{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 28px;
+  color: #707070;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px;
+  width: 350px;
+}
+.chbx{
+  position: relative;
+  color: white;
   font-size: 13px;
-  text-align: center;
+  margin-left: 15px;
+  padding-left: 8px;
+  top: -2px;
+}
+.cbx{
+  position: relative;
+  left: -50px;
+  top: 6px; 
+}
+.chb{
+  margin-left: -490px;
+  position: absolute;
+  width: 1000px;
+  z-index: 100;
+}
+.text111{
+  color: white;
+  font-size: 24px;
+  padding-top: 30px;
   font-weight: bold;
 }
-.ck:hover{
-  background-color: #01c; 
+.text222{
+  color: #bdbdbd;
+  font-size: 16px;
+  padding-bottom: 20px;
 }
+
 </style>
-<div class="fix" id="elm2">
-  <div class="container-cookie">
-    <div class="cookie-text"><span>В целях обеспечения наилучшего пользовательского опыта для вас мы собираем и используем </span><a href="https://www.booking.com/general.ru.html?aid=375440;label=yandex-fAeMqEnXAC%2AdldAeWbOMuQ-4506493104;sid=bba30412f9f5614ae3b5065bacb0a08b;tmpl=docs/privacy-policy;from_cb=1" style="color:white">cookie-файлы</a><span> и некоторые другие данные на нашем сайте в технических, аналитических и маркетинговых целях. Продолжая просмотр нашего сайта, вы соглашаетесь на сбор и использование cookie-файлов и других данных нами в соответствии с </span><a href="https://www.booking.com/general.ru.html?aid=375440;label=yandex-fAeMqEnXAC%2AdldAeWbOMuQ-4506493104;sid=bba30412f9f5614ae3b5065bacb0a08b;tmpl=docs/privacy-policy;from_cb=1" style="color:white">Положением о конфиденциальности</a>.</div>
-    <button class="ck" id="btnclose">Закрыть</button>
-  </div>
+
+  <div class="container1111">
+    <div class="container111">
+    <div class="text111">Сэкономьте время и деньги!</div>
+    <div class="text222">Подпишитесь, и мы вышлем вам лучшие предложения </div>
+    <input type="input" class="inpt" placeholder="Ваш электронный адрес"></input>
+    <button class="sbscr">Подписаться</button>
     </div>
+  <div class="cbx"><input type="checkbox" class="chb" unchecked></input>
+  <label class="chbx">Отправить мне ссылку для загрузки БЕСПЛАТНОГО приложения Booking.com</label></div>
+  </div>
