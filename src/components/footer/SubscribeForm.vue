@@ -6,9 +6,6 @@
     export default {
         name: "SubscribeForm"
     }
-    document.getElementById('btnclose').onclick = function(){
-  document.getElementById('elm2').style.display = 'none';
-}
 
 </script>
 
