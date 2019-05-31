@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Хедер</title>
 	<link rel="stylesheet" href="Групповое задание. Хедер сайта.css">
-</head>
+    
     <style>
         *{
 	margin: 0px;
@@ -216,7 +216,8 @@ template {
 	cursor: pointer;
 }
     </style>
-	<body>
+</head>
+   	<body>
 		<template>
 			<div>
 				<div class="top-line">
