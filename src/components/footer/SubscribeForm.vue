@@ -25,7 +25,6 @@
     @import "../../styles/colors";
 .container1111{
   font-family: Segoe UI;
-  width: 100%;
   height: 300px;
   background-color: #001b42;
   margin: -8px;
