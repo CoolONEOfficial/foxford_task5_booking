@@ -1,5 +1,17 @@
 <template>
-    <!--TODO: subscribe form-->
+    <!--TODO: subscribe form-->  
+    
+    <div class="container1111">
+    <div class="container111">
+    <div class="text111">Сэкономьте время и деньги!</div>
+    <div class="text222">Подпишитесь, и мы вышлем вам лучшие предложения </div>
+    <input type="input" class="inpt" placeholder="Ваш электронный адрес"></input>
+    <button class="sbscr">Подписаться</button>
+    </div>
+  <div class="cbx"><input type="checkbox" class="chb" unchecked></input>
+  <label class="chbx">Отправить мне ссылку для загрузки БЕСПЛАТНОГО приложения Booking.com</label></div>
+  </div>
+  
 </template>
 
 <script>
@@ -13,7 +25,7 @@
     @import "../../styles/colors";
 .container1111{
   font-family: Segoe UI;
-  width: 100.4%;
+  width: 100%;
   height: 300px;
   background-color: #001b42;
   margin: -8px;
@@ -21,7 +33,7 @@
   min-width: 600px;
 }
 .container111{
-  width: 100.4%;
+  width: 100%;
   height: 160px;
   margin: -8px;
   background-color: #001b42;
@@ -89,13 +101,4 @@
 
 </style>
 
-  <div class="container1111">
-    <div class="container111">
-    <div class="text111">Сэкономьте время и деньги!</div>
-    <div class="text222">Подпишитесь, и мы вышлем вам лучшие предложения </div>
-    <input type="input" class="inpt" placeholder="Ваш электронный адрес"></input>
-    <button class="sbscr">Подписаться</button>
-    </div>
-  <div class="cbx"><input type="checkbox" class="chb" unchecked></input>
-  <label class="chbx">Отправить мне ссылку для загрузки БЕСПЛАТНОГО приложения Booking.com</label></div>
-  </div>
+
