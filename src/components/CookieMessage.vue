@@ -40,7 +40,6 @@
   position: relative;
   width: 90%;
   color: white;
-  font-weigth: bold;
   font-size: 13px;
   padding: 10px 0;
   text-align: center;
