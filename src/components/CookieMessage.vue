@@ -32,6 +32,8 @@
 }
 .container-cookie{
   position: relative;
+  width: 100.89%;
+  height: calc(30% + cookie-text.height);
   background-color: #003580;
   text-align: center;
   min-width: 700px;
@@ -61,7 +63,4 @@
 .ck:hover{
   background-color: #01c; 
 }
-
-
 </style>
-
