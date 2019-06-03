@@ -10,7 +10,7 @@
             </CurrencySelection>
             <LanguageSelection>
                 <div class="right-part">
-                    <a id="language" title="Выберите язык" role="button" id="language-button"><img src="https://r-ec.bstatic.com/static/img/flags/24/ru/88fbb4ed75a0daae6222ed2426e26cef1537eecd.png"></a>
+                    <a id="language" title="Выберите язык" role="button"><img src="https://r-ec.bstatic.com/static/img/flags/24/ru/88fbb4ed75a0daae6222ed2426e26cef1537eecd.png"></a>
                 </div>
             </LanguageSelection>
         </v-layout>

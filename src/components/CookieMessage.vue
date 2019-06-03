@@ -1,10 +1,8 @@
 <template>
-    <!--TODO: cookie message-->
-    
-    <div class="fix" id="elm2">
+    <div class="fix" id="elm2" :style="visible ? '' : 'display: none'">
       <div class="container-cookie">
         <div class="cookie-text"><span>В целях обеспечения наилучшего пользовательского опыта для вас мы собираем и используем </span><a href="https://www.booking.com/general.ru.html?aid=375440;label=yandex-fAeMqEnXAC%2AdldAeWbOMuQ-4506493104;sid=bba30412f9f5614ae3b5065bacb0a08b;tmpl=docs/privacy-policy;from_cb=1" style="color:white">cookie-файлы</a><span> и некоторые другие данные на нашем сайте в технических, аналитических и маркетинговых целях. Продолжая просмотр нашего сайта, вы соглашаетесь на сбор и использование cookie-файлов и других данных нами в соответствии с </span><a href="https://www.booking.com/general.ru.html?aid=375440;label=yandex-fAeMqEnXAC%2AdldAeWbOMuQ-4506493104;sid=bba30412f9f5614ae3b5065bacb0a08b;tmpl=docs/privacy-policy;from_cb=1" style="color:white">Положением о конфиденциальности</a>.</div>
-        <button class="ck" id="btnclose">Закрыть</button>
+        <button class="ck" id="btnclose" @click="close">Закрыть</button>
       </div>
     </div>
     
@@ -12,11 +10,18 @@
 
 <script>
     export default {
-        name: "CookieMessage"
+        name: "CookieMessage",
+        data() {
+            return {
+                visible: true
+            }
+        },
+        methods: {
+            close() {
+                this.visible = false;
+            }
+        }
     }
-    document.getElementById('btnclose').onclick = function(){
-  document.getElementById('elm2').style.display = 'none';
-}
 </script>
 
 <style scoped lang="scss">
