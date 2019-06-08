@@ -117,7 +117,7 @@
         border: white solid 1px;
         border-radius: 3px;
         top: 20%;
-        height: 18px;
+        height: 24px;
         width: 22%;
         left: 20%;
         font-size: 12px;
@@ -141,7 +141,7 @@
         border-radius: 3px;
         background-color: white;
         top: 20%;
-        height: 18px;
+        height: 24px;
         width: 15%;
         left: 51%;
         font-size: 12px;
@@ -160,7 +160,7 @@
         border-radius: 3px;
         background-color: white;
         top: 20%;
-        height: 18px;
+        height: 24px;
         width: 12%;
         left: 75%;
         font-size: 12px;
